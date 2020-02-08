@@ -1,0 +1,12 @@
+[package]
+name = "dwm1001-experiments"
+version = "0.1.0"
+authors = ["Vadim Kaushan <admin@disasm.info>"]
+edition = "2018"
+
+[dependencies]
+nrf52832-hal = "0.8.1"
+cortex-m-rt = "0.6.12"
+embedded-hal = "0.2.3"
+panic-halt = "0.2.0"
+cortex-m = "0.6.2"
