@@ -1,3 +1,4 @@
+set confirm off
 # print demangled symbols by default
 set print asm-demangle on
 
@@ -26,4 +27,4 @@ monitor arm semihosting enable
 
 load
 #step
-
+continue
