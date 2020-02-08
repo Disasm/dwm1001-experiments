@@ -24,9 +24,9 @@ fn main() -> ! {
     let mut delay = Delay::new(cp.SYST);
 
     loop {
-        led1.set_high();
+        led1.set_high().ok();
         delay.delay_ms(500u32);
-        led1.set_low();
+        led1.set_low().ok();
         delay.delay_ms(500u32);
     }
 }
